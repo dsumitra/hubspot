@@ -33,8 +33,7 @@ public class HubspotApiController {
         callRecordsList = hubspotApiService.getCallRecordsList();
 
         if (CollectionUtils.isEmpty(callRecordsList)) {
-            System.out.println("Unable to get partners list information");
-//            return "Unable to get partners list.";
+            System.out.println("Unable to get customer  information");
         }
 
         concurrentCallsList = hubspotApiService.getConcurrentCallsList(callRecordsList);
