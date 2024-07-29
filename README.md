@@ -1,6 +1,5 @@
-Hubspot Coding Challenge
+Hubspot Challenge
 
-Spring Boot REST API project
 
 Export project to Intellij and start the service using Spring Boot.
 Tomcat application will start on port : 8080
